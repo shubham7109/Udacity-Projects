@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   color: #1d424c; }
 
 h1,
@@ -31,26 +31,6 @@ h4 {
   max-width: 100%;
   margin: 0; }
 
-.project-description {
-  font-size: 17px;
-  padding: 0 10px;
-  line-height: 1.4; }
-
-.project-link {
-  font-size: 17px;
-  padding: 20px 0; }
-
-.footer {
-  border-top: 1px solid #bbb;
-  padding: 6px 0 20px;
-  text-align: center; }
-
-.credits {
-  font-size: 14px;
-  padding-top: 6px; }
-
-.credits a {
-  color: #80774c; }
 
 /**************************************************
  * Viewport - 1 Column
@@ -66,7 +46,11 @@ h4 {
   .title {
     font-size: 18px; }
   .joke	 {
-    margin-bottom: 20px; }
+	  margin-bottom: 20px;}
+  .coding-img {
+	   max-width:100%;
+	   height: auto;
+	   display:block; }
   .github-projects {
     padding: 0 16px; }
   .project {
