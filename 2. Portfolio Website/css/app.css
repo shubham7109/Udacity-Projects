@@ -15,8 +15,9 @@ h4 {
   margin-bottom: 15px; }
 
 .logo-image {
-  width: 200px;
-  height: 200px; }
+  	max-width:100%;
+	height: auto;
+	display:block; }
 
 .name {
   margin: 0; }
@@ -28,9 +29,19 @@ h4 {
   text-align: center; }
 
 .project-img {
-  max-width: 100%;
-  margin: 0; }
+  	max-width:100%;
+	height: auto;
+	display:block;}
 
+@media screen and (max-width: 575px) {
+    .projects-list {
+        flex-direction: column;
+    }
+    
+    .project {
+        width: 100%;
+    }
+}
 
 /**************************************************
  * Viewport - 1 Column
@@ -46,10 +57,7 @@ h4 {
   .title {
     font-size: 18px; }
   .joke	 {
-	margin-bottom: 20px;
-	max-width:100%;
-	height: auto;
-	display:block;}
+	margin-bottom: 20px; }
   .coding-img {
 	   max-width:100%;
 	   height: auto;
